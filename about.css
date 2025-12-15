@@ -1,0 +1,91 @@
+body{
+    padding:0 5%;
+}
+
+header{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin: 30px auto;
+}
+
+nav{
+    font-family:'segoe UI';
+    padding-top:10px;
+
+}
+
+nav a{
+    text-decoration:none;
+    color:rgb(65,57,57);
+    margin:10x;
+    text-transform:uppercase;
+}
+
+.name{
+    font-family: 'Permanent Marker';
+    font-size:40px;
+    width:100px;
+}
+
+.subscribe{
+    Text-transform:uppercase;
+    background-color: black;
+    color:white;
+    padding:10px 15px;
+}
+
+.me{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    gap:40px;
+    padding:0 10%;
+    justify-content:center;
+}
+
+.intro{
+    width:60%;
+}
+.intro h1{
+    font-family:'Shadows into light';
+    font-style: italic;
+    font-size:25px;
+}
+.intro p{
+    font-family:'school bell';
+    font-style:italic;
+    font-size:22px;
+}
+
+.image{
+    width:40%;
+}
+img{
+    width:100%;
+    max-width:300px;
+    border-radius:35px;
+}
+
+blockquote{
+    font-family:"IBM plex Mono";
+    font-style:italic;
+    border-left:5px grey solid;
+    background-color:rgb(223, 226, 227);
+    margin-left:0px;
+    padding:10px;
+}
+
+footer{
+    font-family:'segoe Ui';
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+    text-align: center;
+    padding:40px;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+
+
+ 
